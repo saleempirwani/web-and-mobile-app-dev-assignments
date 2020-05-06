@@ -1,0 +1,74 @@
+
+/**************************************************************************
+                            Main Index.html 
+**************************************************************************/
+
+.intro{
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.intro+h1{
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+h1+ul{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/**************************************************************************
+                                Assignments # 2
+**************************************************************************/
+
+/* form.html */
+
+.main-container{
+
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+.first-container{
+    text-align: center;
+}
+.first-container>h1{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+form>table{
+    height: 800px;
+    border: 2px solid black;
+    text-align: left;
+    background-color: blueviolet;
+    color: white;
+}
+
+table table{
+    text-align: left;
+}
+
+/* submit.html */
+.container{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Times New Roman';
+}
+
+.container h1{
+    color: green;
+}
+
+.container h2, h2{
+    color: purple;
+}
+
+.container img{
+    width: 180px;
+    height: 180px;
+}
