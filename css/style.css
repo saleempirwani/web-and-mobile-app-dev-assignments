@@ -3,23 +3,10 @@
                             Main Index.html 
 **************************************************************************/
 
-.intro{
-    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 300%;
-    background-color: lightseagreen;
-    color: white;
+.bg-2-color{
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
 }
 
-.intro+h1{
-    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
-    color: black;
-}
-
-h1+ul{
-    font-size: 120%;
-    font-weight: bold;
-}
 
 /**************************************************************************
                                 Assignments # 2

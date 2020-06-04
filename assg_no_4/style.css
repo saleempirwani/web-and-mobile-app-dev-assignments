@@ -1,0 +1,73 @@
+.up-arrow{
+    font-size: xx-large;
+    
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1;
+}
+
+.up-arrow a{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 2px 12px 2px 13px;
+}
+
+.up-arrow a:hover{
+    background-color: black;
+}
+
+.navbar-brand{
+    letter-spacing: 4px;
+}
+
+.navbar{
+    background-color: #4caf50 !important;
+    color: #fff !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.6s ease;
+}
+
+.active{
+    border-bottom: 2px solid white;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+.social-icon{
+    margin-top: 0.5rem;
+}
+
+.social-icon a{
+    display: inline-block;
+    padding: 2px 5px;
+    color: white;
+    border: 1px solid white;
+    margin: 7px 2px;
+    transition: 0.6s ease;
+}
+
+.social-icon a:hover{
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.about-us a{
+    color: white;
+}
