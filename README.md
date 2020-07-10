@@ -1,3 +1,3 @@
 # Web-And-Mob-App-Dev-Assignments
 
-See All Assignment Live, [Visit](https://msr-projects.web.app)
+See All Projects Live, [Visit](https://msr-projects.web.app)
