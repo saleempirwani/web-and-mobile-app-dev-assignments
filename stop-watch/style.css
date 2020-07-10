@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/stop-watch-back-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.navbar{
+    background-color: white;
+    text-align: left;
+    padding: 12px 30px;
+    font-size: 2vw;
+    letter-spacing: 5px;
+    margin-bottom: 10vw;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.card div{
+    background-color: transparent;
+    font-size: 10vw;
+    color: white;
+    margin: 1vw;
+    padding: 0 1vw;
+}
+
+.card-btn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-btn div button{
+    background-color: transparent;
+    font-size: 2vw;
+    color: white;
+    margin: 1vw 2vw;
+    padding: 0.5vw 4.5vw;
+    outline: none;
+    border: 2px solid white;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.card-btn div button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    
+    .navbar{
+        font-size: 5vw;
+        margin-bottom: 40vw;
+    }
+    
+    .card div{
+       font-size: 18vw;
+    }
+
+    .card-btn{
+        flex-direction: column;
+        margin-top: 2vw;
+    }
+
+    .card-btn div button{
+        font-size: 5vw;
+        margin: 3vw;
+        padding: 3vw 30vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    
+    .navbar{
+        font-size: 6vw;
+        margin-bottom: 25vw;
+    }
+    
+    .card div{
+       font-size: 18vw;
+    }
+
+    .card-btn{
+        flex-direction: column;
+        margin-top: 2vw;
+    }
+
+    .card-btn div button{
+        font-size: 5vw;
+        margin: 3vw;
+        padding: 3vw 30vw;
+    }
+}

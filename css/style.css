@@ -7,6 +7,33 @@
     background-image: linear-gradient(to right, #43cea2, #185a9d);
 }
 
+/**************************************************************************
+                                About.index
+**************************************************************************/
+
+.about-div{
+    text-align: center;
+    margin: 5vw auto;
+    width: 60%;
+}
+
+.profile i{
+    background-color: dodgerblue;
+    padding: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: 100px;
+}
+.about-div h2{
+    color: black;
+    margin: 2vw 0;
+}
+
+.about-div p{
+    text-align: justify;
+}
 
 /**************************************************************************
                                 Assignments # 2
