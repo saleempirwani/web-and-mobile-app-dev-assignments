@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #f7f7f7;
+}
+
+.navbar{
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    padding: 8px 20px;
+    font-size: 150%;
+    letter-spacing: 4px;
+}
+
+.todo{
+    width: 95%;
+    margin: 30px auto;
+}
+
+
+.todo .todo-btn{
+    text-align: center;
+}
+
+.todo .todo-btn button{
+    padding: 10px 30px;
+    margin: 5px 5px;
+    box-shadow: 0 0 5px grey;
+    font-size: large; 
+    border: 0; 
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.todo .todo-btn input + button{
+    color: #4caf50;
+}
+
+.todo .todo-btn input + button + button{
+    color: crimson;
+}
+
+.todo .todo-btn button:hover{
+    color: black;
+}
+
+.todo .todo-btn input{
+    margin: 5px 5px;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    border: 1px solid black;
+    font-size: large;
+    outline: none;
+    background-color: transparent;
+}
+
+.todo ul{
+    margin: 30px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.todo ul li{
+    box-shadow: 0 0 5px grey;
+    background-color: #fff;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo ul li label{
+    padding: 10px;
+
+}
+
+.todo ul li button {
+    background-color: #fff;
+    outline: none;
+    padding: 0 8px;
+    border: 0;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.todo ul li > button + button{
+    color: crimson;
+}
+
+
+.todo ul li > button{
+    color: #4caf50;
+}

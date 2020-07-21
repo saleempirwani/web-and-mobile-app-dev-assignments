@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <label for="">Todo App</label>
+    </div>
+
+    <div class="todo">
+
+        <div class="todo-btn">
+            <input type="text" id="userInput" size="30" placeholder="Type your todo list here...">
+            <button onclick="btnAdd()"><i class="fas fa-plus-circle"></i> Add</button>
+            <button onclick="btnDelAll()"><i class="fas fa-trash"></i> Del All</button>
+        </div>
+        <ul></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
