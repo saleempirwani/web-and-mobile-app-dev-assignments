@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.header{
+    height: 40px;
+    padding: 8px 30px;
+    padding-bottom: 10px;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+}
+
+.container{
+    width: 90%;
+    margin: 50px auto;
+    text-align: right;
+    display: none;
+}
+
+.container > .card{
+    margin-bottom: 40px;
+}
+
+/* Quiz Card */
+
+.card{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px grey;
+    font-size: large;
+    text-align: left;
+}
+
+.opt .card {
+    cursor: pointer;
+}
+
+.opt-no{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* Score Board  */
+
+.score-board, .user-info{
+    text-align: center;
+    font-size: 22px;
+    background-color: white;
+    display: inline-block;
+    margin: 50px 20px;
+    padding: 5px 20px 20px 20px;
+    box-shadow: 0 0 5px grey;
+    display: none;
+}
+
+.user-info{
+    display: inline-block;
+}
+
+.user-info input{
+    outline: none;
+    width: 95%;
+    padding-bottom: 5px;
+    border: 0;
+    border-bottom: 1px solid crimson;
+    text-align: center;
+    font-size: large;
+}
+
+h1{
+    color: crimson;
+}
+
+.score-btn{
+    background-color: transparent;
+    color: crimson;
+    margin: 20px;
+    padding: 12px 30px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: large;
+    transition: 0.3s linear;
+}
+
+.score-btn:hover{
+    color: white;
+    background-color: crimson;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="">
+        <div class="header">
+            <label>Quiz App</label>
+        </div>
+
+        <div class="user-info">
+            <h1>Welcome</h1>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <button class="score-btn" onclick="start()">Let's Start</button>
+        </div>
+
+        <div class="container">
+            <b><p id="question" class="card"></p></b>
+            <div class="opt">
+                <p class="card" onclick="userChoice(this)"><label class="opt-no">a.</label><label id="opt1">lorem</label></p>
+                <p class="card" onclick="userChoice(this)"><label class="opt-no">b.</label><label id="opt2"></label></p>
+                <p class="card" onclick="userChoice(this)"><label class="opt-no">c.</label><label id="opt3"></label></p>
+                <p class="card" onclick="userChoice(this)"><label class="opt-no">d.</label><label id="opt4"></label></p>
+            </div>
+
+        </div>
+
+        <div class="score-board">
+            <h1>Score Board</h1>
+            <p><b>Username: </b><label id="username"></label></p>
+            <p><b>Score: </b><label id="score"></label></p>
+            <button class="score-btn" onclick="startAgain()">Start Again</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
